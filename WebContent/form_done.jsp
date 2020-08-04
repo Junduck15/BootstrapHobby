@@ -7,6 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-Your hobby is ${param.name}
+
+    <jsp:useBean id="member" class="com.example.Dynamic" />
+    <jsp:setProperty property="*" name="member" />
+    <%
+        request.setAttribute("member", member);
+    %>
+    <h3>Your hobbies are</h3>
+
+<p><%=String.join("<br>",request.getParameterValues("hobby"))%></p>    
 </body>
 </html>

@@ -1,14 +1,14 @@
 package com.example;
 
 public class Dynamic {
-	String hobby;
+	String hobby[];
 
-	public String getHobby() {
-		return hobby;
-	}
-
-	public void setHobby(String hobby) {
-		this.hobby = hobby;
-	}
+    public String[]	getHobby() {
+        return hobby;
+    }
+ 
+    public void setHobby(String[] hobby) {
+        this.hobby = hobby;
+    }
 	
 }

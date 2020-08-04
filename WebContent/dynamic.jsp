@@ -38,7 +38,7 @@ $(document).ready(function(){
   <form  id='form1' action="form_done.jsp" method="GET">
   <div id= 'elements'>
     <div class="form-group" id='form-group1'>
-      <input type="text" class="form-control inline" name="name" placeholder='Enter your hobby'><button type="button" class="btn btn-primary" id='add'>ADD</button>
+      <input type="text" class="form-control inline" name="hobby" placeholder='Enter your hobby'><button type="button" class="btn btn-primary" id='add'>ADD</button>
     </div>
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 <div id='newdata'>
   <div class="form-group" id='new'>
-       <input type="text" class="form-control inline" id='data' name="name1" placeholder='Enter your hobby'><button type='button' id="remove" class="btn btn-danger remove" >X</button>
+       <input type="text" class="form-control inline" id='data' name="hobby" placeholder='Enter your hobby'><button type='button' id="remove" class="btn btn-danger remove" >X</button>
   </div> 
 </div>
 </body>
